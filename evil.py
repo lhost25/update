@@ -31,7 +31,7 @@ bcyan="\033[1;36m"
 white="\033[0;37m"
 nc="\033[00m"
 
-version="1.4"
+version="1.5"
 
 ask = green + '[' + white + '?' + green + '] '+ yellow
 success = yellow + '[' + white + '√' + yellow + '] '+green
@@ -202,7 +202,7 @@ def about():
     system("clear")
     slowprint(logo)
     print(red+'[ToolName]  '+cyan+' :[EvilTools] ')
-    print(red+'[Version]   '+cyan+' :[1.4]')
+    print(red+'[Version]   '+cyan+' :[1.5]')
     print(red+'[Author]    '+cyan+' :[Evil] ')
     print(red+'[Github]    '+cyan+' :[https://github.com/lhost25] ')
     print(red+'[Messenger] '+cyan+' :[Evil#2909]')
