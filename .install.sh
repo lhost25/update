@@ -15,15 +15,14 @@ purpal='\033[35m'
 
 echo -e "${ORANGE} "
 echo ""
-echo "	  _____       _ _   _____           _                 ";
-echo "	 | ____|_   _(_) | |_   _|__   ___ | |___  v1.4 Beta  ";
-echo "	 |  _| \ \ / / | |   | |/ _ \ / _ \| / __|            ";
-echo "	 | |___ \ V /| | |   | | (_) | (_) | \__ \            ";
-echo "	 |_____| \_/ |_|_|   |_|\___/ \___/|_|___/	      ";
+echo "	  ____  _  _  ____  __                                 ";
+echo "	 ( ___)( \/ )(_  _)(  )                                ";
+echo "	  )__)  \  /  _)(_  )(__                               ";
+echo "	 (____)  \/  (____)(____)                              ";
+echo "	                                               	      ";
 echo "	                                                      ";
-echo "	     	Pages & cPanel Phishing Tools                 ";
 echo "                                                        ";
-echo -e "${BLUE}       EvilTools Must Run As Root During Installation ${NC}"
+echo -e "${BLUE}       Evil Must Run As Root During Installation ${NC}"
 
 
 echo ""
@@ -32,7 +31,7 @@ echo ""
 echo -e "${WHITE}[1] Kali Linux / Parrot-Os "
 echo -e "${WHITE}[0] Exit "
 echo ""
-echo -n -e "EvilTools =>> "
+echo -n -e "Evil =>> "
 read choice
 INSTALL_DIR="/usr/share/doc/ch3r0"
 BIN_DIR="/usr/bin/"
